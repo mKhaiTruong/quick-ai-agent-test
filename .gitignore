@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv
+
+*.pyc
+logs/
+artifacts/
+.env
+*.egg-info/
+mlruns/
+credentials/
+mlflow.db
+.dvc/cache/
+
+.prefect/
+scripts/__pycache__/
