@@ -5,6 +5,7 @@ langchain-community>=0.2.0
 langchain-openai>=0.1.0
 streamlit>=1.0.0
 langchain-anthropic
+langgraph==1.2.0
 
 # Tavily Search Tool
 tavily-python
