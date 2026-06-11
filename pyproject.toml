@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agenticai"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain",
+    "langchain-anthropic",
+    "langgraph",
+    "python-dotenv",
+    "streamlit",
+    "tavily-python",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["AgenticAI_With_Langraph*"]
