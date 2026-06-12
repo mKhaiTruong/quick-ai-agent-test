@@ -22,3 +22,6 @@ mlflow.db
 
 .prefect/
 scripts/__pycache__/
+
+# Custom folder
+medical-chat-bot/

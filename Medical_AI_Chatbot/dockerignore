@@ -1,0 +1,6 @@
+__pycache__
+*.pyc
+data/
+store_index.py
+template.sh
+*.Zone.Identifier

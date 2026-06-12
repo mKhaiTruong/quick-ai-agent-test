@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(135deg,#667eea,#764ba2);
+
+    font-family:'Segoe UI',sans-serif;
+}
+
+.chat-wrapper{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.chat-card{
+    width:800px;
+    height:90vh;
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(20px);
+
+    border-radius:25px;
+
+    box-shadow:
+            0 8px 32px rgba(0,0,0,.25);
+
+    display:flex;
+    flex-direction:column;
+
+    overflow:hidden;
+}
+
+.chat-header{
+    padding:20px;
+
+    display:flex;
+    align-items:center;
+
+    background:rgba(255,255,255,.1);
+
+    border-bottom:1px solid rgba(255,255,255,.2);
+}
+
+.avatar img{
+    width:60px;
+    height:60px;
+
+    border-radius:50%;
+    background:white;
+    padding:8px;
+}
+
+.header-info{
+    margin-left:15px;
+}
+
+.header-info h4{
+    color:white;
+    margin-bottom:5px;
+}
+
+.header-info p{
+    color:#e6e6e6;
+    font-size:14px;
+}
+
+.chat-body{
+    flex:1;
+    overflow-y:auto;
+    padding:25px;
+}
+
+.chat-footer{
+    padding:20px;
+    background:rgba(255,255,255,.1);
+}
+
+.input-container{
+    display:flex;
+    gap:15px;
+}
+
+.input-container input{
+    flex:1;
+
+    border:none;
+    outline:none;
+
+    padding:18px;
+
+    border-radius:50px;
+
+    background:white;
+
+    font-size:15px;
+}
+
+.input-container button{
+    width:60px;
+    border:none;
+
+    background:#4f46e5;
+
+    color:white;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.input-container button:hover{
+    background:#4338ca;
+    transform:scale(1.05);
+}
+
+.msg_cotainer{
+    max-width:75%;
+    background:white;
+    padding:15px 20px;
+    border-radius:20px 20px 20px 5px;
+
+    color:#333;
+
+    position:relative;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+
+.msg_cotainer_send{
+    max-width:75%;
+    margin-left:auto;
+
+    background:#4f46e5;
+
+    color:white;
+
+    padding:15px 20px;
+
+    border-radius:20px 20px 5px 20px;
+
+    position:relative;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+}
+
+.msg_time,
+.msg_time_send{
+    display:block;
+
+    font-size:12px;
+
+    margin-top:8px;
+
+    opacity:.7;
+}

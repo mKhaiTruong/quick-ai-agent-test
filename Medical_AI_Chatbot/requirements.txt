@@ -1,0 +1,31 @@
+# Core LLM + LangChain ecosystem
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+langchain-text-splitters
+langchain-anthropic
+langchain-huggingface
+langchain-pinecone
+sentence-transformers
+langgraph==1.2.0
+streamlit>=1.0.0
+pinecone
+
+# Tavily Search Tool
+tavily-python
+
+# Web scraping
+flask
+beautifulsoup4>=4.12.0
+readability-lxml 
+trafilatura
+requests>=2.31.0
+lxml>=5.0.0
+
+# Environment variables
+pypdf
+python-dotenv>=1.0.0
+
+# Logging / debugging (optional but recommended)
+rich>=13.7.0
